@@ -1,0 +1,7 @@
+- Read post request to determine method and path
+- We checked the parameter which was ingredient
+- used curl to post our strings of ingredients by referencing our parameter ingredient in the curl request.
+
+curl --data  "ingredient=1/2 teaspoon freshly ground black pepper" localhost:4567/ingredients
+
+- once posted with curl, server updated the ingredients.txt file.
